@@ -428,3 +428,220 @@
                 gap: 1.5rem;
             }
         }
+
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .nav-container {
+                padding: 0 1rem;
+                flex-wrap: wrap;
+            }
+
+            .logo {
+                font-size: 1.4rem;
+            }
+
+            .nav-links {
+                gap: 0.5rem;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                margin-top: 0.5rem;
+            }
+
+            .nav-links a {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.9rem;
+            }
+
+            .navbar {
+                padding: 0.8rem 0;
+            }
+
+            .main-content {
+                margin-top: 100px;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+                line-height: 1.2;
+            }
+
+            .hero p {
+                font-size: 1rem;
+                padding: 0 1rem;
+            }
+
+            .section {
+                padding: 1.5rem 1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            .card {
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .card h2 {
+                font-size: 1.3rem;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .experience-title {
+                font-size: 1rem;
+                line-height: 1.4;
+            }
+
+            .experience-company {
+                font-size: 0.9rem;
+            }
+
+            .experience-duration {
+                font-size: 0.8rem;
+            }
+
+            .project-info {
+                padding: 1.5rem;
+            }
+
+            .project-info h3 {
+                font-size: 1.4rem;
+                line-height: 1.3;
+            }
+
+            .project-info p {
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .project-btn {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            .contact-links {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .contact-link-item {
+                padding: 1.5rem;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .contact-link-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 1.3rem;
+            }
+
+            .contact-link-details h3 {
+                font-size: 1.1rem;
+            }
+
+            .view-more-btn {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.9rem;
+            }
+
+            /* List styles for mobile */
+            .experience-item ul,
+            .achievement-item ul {
+                margin-left: 1rem !important;
+                font-size: 0.9rem;
+            }
+
+            .experience-item li,
+            .achievement-item li {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        /* Very small screens */
+        @media (max-width: 480px) {
+            .nav-container {
+                padding: 0 0.5rem;
+            }
+
+            .logo {
+                font-size: 1.2rem;
+            }
+
+            .nav-links a {
+                padding: 0.3rem 0.6rem;
+                font-size: 0.8rem;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+            }
+
+            .section {
+                padding: 1rem 0.5rem;
+            }
+
+            .section-title {
+                font-size: 1.7rem;
+            }
+
+            .card {
+                padding: 1rem;
+            }
+
+            .card h2 {
+                font-size: 1.2rem;
+            }
+
+            .experience-title {
+                font-size: 0.95rem;
+            }
+
+            .project-info {
+                padding: 1rem;
+            }
+
+            .project-info h3 {
+                font-size: 1.2rem;
+            }
+
+            .project-info p {
+                font-size: 0.9rem;
+            }
+
+            .contact-link-item {
+                padding: 1rem;
+            }
+
+            .contact-link-icon {
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Landscape mobile orientation */
+        @media (max-width: 768px) and (orientation: landscape) {
+            .main-content {
+                margin-top: 90px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+                margin-bottom: 1.5rem;
+            }
+        }
