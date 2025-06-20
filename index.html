@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shravani Birje - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Shravani Birje</div>
+            <ul class="nav-links">
+                <li><a onclick="showSection('home')" class="active">Home</a></li>
+                <li><a onclick="showSection('resume')">Resume</a></li>
+                <li><a onclick="showSection('projects')">Projects</a></li>
+                <li><a onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <h1>Hi, I'm <span class="highlight">Shravani Birje</span></h1>
+                <p>I'm a Computer Engineering student with a strong foundation in software development, UI/UX design, and product management. I've led full-cycle product development and collaborated in agile environments. Known for my creative thinking, adaptability, and structured problem-solving, I bring a proactive, user-focused mindset to every project. I'm always eager to learn and passionate about solving real-world problems.</p>
+            </div>
+
+            <!-- Experience -->
+            <div class="card">
+                <h2><i class="fas fa-briefcase card-icon"></i>Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-title">Associate Product Manager (Intern)</div>
+                    <div class="experience-company">LUDIFU (Let Us Do It For You) – Mumbai</div>
+                    <div class="experience-duration">07/2023 to 07/2024</div>
+                    <ul style="margin-left: 1.5rem; color: #4a5568;">
+                        <li>Led the end-to-end development of products, including WhatsApp chatbot, from ideation to launch.</li>
+                        <li>Designed and developed web and mobile applications, contributed to both UI/UX and coding aspects.</li>
+                        <li>Built dashboards using Excel and Google Data Studio, visualizing product and user metrics.</li>
+                        <li>Created product roadmaps, outlining development phases and aligning team efforts to business goals.</li>
+                        <li>Facilitated internal hiring, and delivered client presentations and product pitches.</li>
+                        <li>Took ownership of tasks across design, development, testing, and delivery with a learn-adapt-execute mindset.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-title">Software Engineer (Intern)</div>
+                    <div class="experience-company">Atoconn System Labs Pvt. Ltd. – Mumbai</div>
+                    <div class="experience-duration">02/2023 to 06/2023</div>
+                    <ul style="margin-left: 1.5rem; color: #4a5568;">
+                        <li>Developed and tested front-end components ensuring responsive and functional design.</li>
+                        <li>Contributed to testing strategies, presentations, and research to support application improvements.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-title">UI/UX Designer & Scrum Master (Intern)</div>
+                    <div class="experience-company">Modern Solution Hub – Mumbai</div>
+                    <div class="experience-duration">08/2022 to 11/2022</div>
+                    <ul style="margin-left: 1.5rem; color: #4a5568;">
+                        <li>Served as Scrum Master, ensuring task coordination and timely delivery through Agile practices.</li>
+                        <li>Designed user-friendly interfaces and interactive prototypes; collaborated on planning, testing, and iterative improvements based on feedback.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="card">
+                <h2><i class="fas fa-trophy card-icon"></i>Achievements & Awards</h2>
+                
+                <div class="achievement-item">
+                    <div class="experience-title">🥈 2nd Prize – Toyota Kirloskar Hackathon (National Level)</div>
+                    <p style="color: #4a5568;">Served as a <strong>mentor and project lead</strong>, taking full responsibility for the idea, prototype, and final model execution. Guided teammates on how to present the solution effectively to judges and the audience. Secured 2nd place among 50 teams.</p>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="experience-title">🏆 Selected & Funded – TIH Innovation Program (Organized by IIM-IIT)</div>
+                    <p style="color: #4a5568;">Project selected through multiple competitive rounds for its innovative IoT + software-based solution. Currently leading the team in development, testing, and full-cycle execution.</p>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="experience-title">🏅 Zonal Winner – 19th Avishkar Innovation Competition</div>
+                    <p style="color: #4a5568;">Led the team in presenting a creative tech solution that makes advancement in agriculture field. Recognized for strong project leadership and collaboration.</p>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="experience-title">📄 Research Paper Accepted – ISCON 2025</div>
+                    <p style="color: #4a5568;">Research paper accepted for presentation at ISCON 2025, final submission in progress.</p>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="experience-title">🌟 Top Performer – Software Engineering Subject</div>
+                    <p style="color: #4a5568;">Ranked <strong>1st in the entire batch</strong> in the Software Engineering subject, demonstrating deep understanding of the product development life cycle, from ideation to deployment.</p>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="experience-title">🏅 Best Potential Leader – Modern Solution Hub Workshop</div>
+                    <p style="color: #4a5568;">Recognized for outstanding leadership qualities during an internal Agile-based project workshop.</p>
+                </div>
+            </div>
+
+            <!-- Extra Curricular -->
+            <div class="card">
+                <h2><i class="fas fa-star card-icon"></i>Extra Curricular Activities</h2>
+                
+                <div class="achievement-item">
+                    <div class="experience-title">🥇 National-Level Gold Medalist</div>
+                    <div class="experience-company">Kickboxing</div>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="experience-title">🏆 1st Prize</div>
+                    <div class="experience-company">Hindi Storytelling Competition (Rotary Club)</div>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="experience-title">🏃‍♀️ Active Sports Enthusiast</div>
+                    <div class="experience-company">Participated in inter school/college-level running and athletic events</div>
+                </div>
+
+                <div class="achievement-item">
+                    <div class="experience-title">🎤 Stage Participation</div>
+                    <div class="experience-company">Contributed to school/college events, anchoring, and hosting sessions</div>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <button onclick="showSection('resume')" class="view-more-btn">
+                        <i class="fas fa-arrow-right"></i> View More Details
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+            <h1 class="section-title">Resume</h1>
+            <div class="resume-container">
+                <div class="card">
+                    <h2>View My Complete Resume</h2>
+                    <p>Click the button below to view my detailed resume with all my skills, experience, and qualifications.</p>
+                    <a href="#" target="_blank" class="resume-button">
+                        <i class="fas fa-file-pdf"></i> View Resume PDF
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h1 class="section-title">My Projects</h1>
+            
+            <div class="projects-container">
+                <!-- Project 1: Jewellery Revamp -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>Jewellery Rewamp - App/Website</h3>
+                        <p>Redesigned a modern and luxurious UI for a jewellery e-commerce platform. Focused on enhancing product visibility, ease of navigation, and elegant brand representation through rich visuals and minimalist layout.</p>
+                        <a href="https://www.figma.com/design/JUEnaR2TE8mHCt8rp6im3p/Jewellery-rewamp?t=cH6T8wm4lcXdUBxg-1" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Design
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Meesho Clone -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>Meesho Clone - App Redesign</h3>
+                        <p>Created a clean and user-friendly clone of the Meesho app, focusing on replicating core flows like product browsing, cart, and checkout while maintaining UI consistency and responsiveness.</p>
+                        <a href="https://www.figma.com/design/qWvMRv8h8kUdBtxyiEQ47w/Meesho-Clone?node-id=0-1&t=cNZphjpI0oUcDD8L-1" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Design
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Fisdom App -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>Fisdom App - Financial App UI</h3>
+                        <p>Designed a sleek and intuitive interface for a personal finance/investment app. Prioritized user onboarding, dashboard clarity, and financial data visualization to ensure a seamless experience.</p>
+                        <a href="https://www.figma.com/design/nq7nsieSoe5xc5oLtRxSyo/Fisdom-app?t=cNZphjpI0oUcDD8L-1" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Design
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Probrokers Website -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>Probrokers Website - Real Estate Platform</h3>
+                        <p>Developed a modern UI for a real estate and brokerage service. Included homepage banners, property listings, broker profiles, and contact forms tailored for a business-oriented audience.</p>
+                        <a href="https://www.figma.com/design/7xPBIsN3jF6l83lprJQX5l/Probrokers-by-shravani-birje?t=cH6T8wm4lcXdUBxg-1" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Design
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5: Best Boarding Schools -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>Best Boarding Schools Website</h3>
+                        <p>Designed a school discovery platform showcasing top boarding schools. Included search filters, feature highlights, and admission inquiry sections with a professional and inviting design.</p>
+                        <a href="https://www.figma.com/design/2WAIjx3jY5VsZ44t3O1Agr/Best-boarding-schools?t=cH6T8wm4lcXdUBxg-1" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Design
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Weed Robo -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>Weed Robo - Robotics UI Concept</h3>
+                        <p>Designed the interface for a robotic weed-removal system. The dashboard includes robot status, field mapping, and controls, combining tech with agriculture through intuitive design.</p>
+                        <a href="https://www.figma.com/design/MvvYhK01Vfib7WfyQacPEZ/Weed-Robo?node-id=0-1&t=cH6T8wm4lcXdUBxg-1" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Design
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 7: Logo Design -->
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3>Logo Design - Branding Project</h3>
+                        <p>Created a set of creative and minimalist logos for various digital platforms and startups, focusing on simplicity, color theory, and strong brand identity.</p>
+                        <a href="https://www.figma.com/design/mvkhzEJDA2YG0Qbddgh4zv/Logo-design-1?t=vxWwg6DMvf1a6rDS-1" target="_blank" class="project-btn">
+                            <i class="fas fa-external-link-alt"></i> View Design
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h1 class="section-title">Contact Me</h1>
+            
+            <div class="contact-container">
+                <div class="card">
+                    <h2 style="text-align: center; margin-bottom: 1.5rem;">Get In Touch</h2>
+                    <p style="margin-bottom: 2rem; color: #4a5568; text-align: center;">I'm always open to discussing new opportunities, collaborations, or just having a chat about design and technology!</p>
+                    
+                    <div class="contact-links">
+                        <a href="mailto:shravanibirje13@gmail.com" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-link-details">
+                                <h3>Email</h3>
+                                <span>shravanibirje13@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/shravanibirje/" target="_blank" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-link-details">
+                                <h3>LinkedIn</h3>
+                                <span>Connect professionally</span>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/shravanibirje13" target="_blank" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-link-details">
+                                <h3>GitHub</h3>
+                                <span>View repositories</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-link-item" style="cursor: default;">
+                            <div class="contact-link-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-link-details">
+                                <h3>Location</h3>
+                                <span>Mumbai, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
